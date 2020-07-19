@@ -15,6 +15,8 @@ int test()
 {
     assert(multiply(2, 2) == 4);
     assert(multiply(-3, 2) == 6);
+    assert(multiply(0, 0) == 0);
+    assert(multiply(123, 123) == 15129);
 }
 
 int main()
