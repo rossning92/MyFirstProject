@@ -19,6 +19,7 @@ int test()
     assert(multiply(123, 123) == 15129);
 }
 
+// This is the main function. The program starts here!
 int main()
 {
     printf("Yoyo, Little Ross!");
